@@ -1,0 +1,46 @@
+ul li{
+    list-style: none;
+    float: left;
+    background: black;
+    height: 70px;
+    padding: 10px 5px;
+    margin: 5px;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    line-height: 54px;
+    border-bottom: 3px solid red;
+    transition: 0.5s all linear;
+}
+
+li:nth-child(1) a{
+    border-color: hotpink;
+}
+li:nth-child(2) a{
+    border-color: powderblue;
+}
+li:nth-child(3) a{
+    border-color: red;
+}
+
+
+li:nth-child(1) a:hover{
+    border-bottom: 55px solid hotpink:
+    height: 9px;
+}
+li:nth-child(2) a:hover{
+    border-bottom: 55px solid powderblue:
+    height: 9px;
+}
+li:nth-child(3) a:hover{
+    border-bottom: 55px solid red:
+    height: 9px;
+}
